@@ -1,0 +1,15 @@
+# Compiled output
+output/
+*.exe
+*.o
+*.obj
+
+# VS Code settings (optional — remove this line if you want to track them)
+# .vscode/
+
+# WinBGIm binary (keep only source files, not the lib)
+lib/
+
+# OS files
+Thumbs.db
+.DS_Store
