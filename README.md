@@ -50,7 +50,16 @@ lab work/
 
 ### Using the batch script (recommended)
 ```
-compile.bat labs\lab1\main.cpp lab1
+cmd /c .\compile.bat labs\lab1\main.cpp lab1
+```
+If you are already in Command Prompt, you can also run:
+```
+.\compile.bat labs\lab1\main.cpp lab1
+```
+
+### Using PowerShell
+```
+.\compile.ps1 labs\lab1\main.cpp lab1
 ```
 This compiles and places the `.exe` inside `output/`.
 
